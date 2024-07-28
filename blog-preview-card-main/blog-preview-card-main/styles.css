@@ -1,91 +1,78 @@
 @font-face {
-    font-family: Figtree;
-    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+	font-family: "figtree";
+	src: url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,800;1,800&display=swap");
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
 }
 
-body{
-    margin:0;
-    padding: 0;
+.attribution a {
+	color: hsl(228, 45%, 44%);
 }
-
-.background {
-    border-radius: 25px;
-    margin: 10px;
-    width: 100%;
-    height: 100vh;
-    background-color: hsl(47, 88%, 63%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+* {
+	border-radius: 1em;
+	
 }
-
+.yellow {
+	background-color: #f5d04e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
 .card {
-    height: auto;
-    width: 50vh;
-    background-color: white;
-    border-radius: 5%;
-    border: 1px solid black;
-    box-shadow: 10px 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
+	background-color: white;
+	width: 18rem;
+	height: 26em;
+	border: 1px solid black;
+	box-shadow: black 0.4em 0.4em;
+	padding: 1em;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+    font-family: "figtree";
 }
-
-.img-container {
-    border-radius: 15%;
+.illustr {
+	width: 100%;
+	height: auto;
 }
-
-.illustration-pic {
-    width: 100%;
-    height: 100%;
-    border-radius: 10%;
-}
-
-.learning {
-    background-color: hsl(47, 88%, 63%);
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 8px 0;
-    padding: 5px;
-    border-radius: 5%;
-    font-family: Figtree;
-    font-size: 0.9rem;
-}
-
-.publish-date {
-    font-family: Figtree;
-    font-size: 0.8rem;
-    margin: 5px 0px;
-}
-
-h1 {
-    font-size: 1.4rem;
-    font-family: Figtree;
-    margin-bottom: 5px;
-}
-
-p {
-    font-family: Figtree;
-    color: hsl(0, 0%, 42%);
-    font-weight: 500;
-    line-height: 1.5;
-    font-size: 0.8rem;
-}
-
-.author {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.greg-pic {
-    width: 10%;
-}
-
-.greg-name {
-    font-family: Figtree;
-    font-size: 0.8rem;
+.learn {
+	background-color: #f5d04e;
+	border-radius: 3px;
+	padding:  5px 10px;
+    font-size: x-small;
     font-weight: 800;
+    margin: 15px 0;
+}
+.p1 {
+    font-family: figtree,Arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-small;
+    margin: 0 5px;
+    font-weight: 500;
+}
+.html {
+    margin-bottom: 0;
+}
+.p2 {
+    font-family: figtree,Arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+font-size: small;
+line-height: 20px;
+font-weight: 600;
+}
+.end {
+    
+    display: flex;
+    align-items: center;
+   }
+.avatar {
+    width: 30px;
+    height: 30px;
+}
+.avatar-name {
+    font-weight: 800;
+    margin: 15px ;
+    font-size: small;
 }
