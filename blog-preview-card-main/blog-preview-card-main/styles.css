@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Figtree;
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
 body{
     margin:0;
     padding: 0;
@@ -15,7 +20,7 @@ body{
 }
 
 .card {
-    height: 70vh;
+    height: auto;
     width: 50vh;
     background-color: white;
     border-radius: 5%;
@@ -23,10 +28,10 @@ body{
     box-shadow: 10px 10px;
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 
 .img-container {
-    padding: 20px;
     border-radius: 15%;
 }
 
@@ -34,4 +39,53 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 10%;
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+    padding: 5px;
+    border-radius: 5%;
+    font-family: Figtree;
+    font-size: 0.9rem;
+}
+
+.publish-date {
+    font-family: Figtree;
+    font-size: 0.8rem;
+    margin: 5px 0px;
+}
+
+h1 {
+    font-size: 1.4rem;
+    font-family: Figtree;
+    margin-bottom: 5px;
+}
+
+p {
+    font-family: Figtree;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 0.8rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.greg-pic {
+    width: 10%;
+}
+
+.greg-name {
+    font-family: Figtree;
+    font-size: 0.8rem;
+    font-weight: 800;
 }
