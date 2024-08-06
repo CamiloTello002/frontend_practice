@@ -1,9 +1,17 @@
+* {
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .team-card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .team-card {
@@ -13,8 +21,22 @@
     box-shadow: 1px 6px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
+.team-card--dark {
+    background-color: #111;
+}
+
+.team-card--dark .team-card__job-title, 
+.team-card--dark .team-card__bio, 
+.team-card--dark .team-card__name {
+    color: white;
+}
+
 .team-card__headshot-wrapper{
     text-align: center;
+}
+
+.team-card__headshot {
+    border-radius: 0.5em;
 }
 
 .team-card__body-wrapper{
@@ -23,4 +45,28 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.team-card__name {
+    font-size: 4rem;
+}
+.team-card__job-title{
+    font-size: 1.8rem;
+}
+
+.team-card__bio{
+    font-size: 1.5em;
+    color: #555;
+    line-height: 1.4;
+    margin: 1.5em 0;
+}
+.team-card__icons-wrapper{
+    display: flex;
+    gap: 16px;
+}
+.team-card__icon{
+    font-size: 3rem !important;
+    background-color: #ddd;
+    padding: 0.5em;
+    border-radius: 1em;
 }
