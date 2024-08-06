@@ -12,3 +12,15 @@
     border: 1px solid #ddd;
     box-shadow: 1px 6px 20px 0px rgba(0, 0, 0, 0.5);
 }
+
+.team-card__headshot-wrapper{
+    text-align: center;
+}
+
+.team-card__body-wrapper{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
