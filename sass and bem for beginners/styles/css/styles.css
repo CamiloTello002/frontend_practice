@@ -11,8 +11,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: hsl(0, 0%, 26%);
-  color: hsl(0, 0%, 100%);
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 h1, h2, h3 {
@@ -27,6 +27,11 @@ p {
 
 a, a:visited, a:active {
   text-decoration: none;
+}
+
+:root {
+  --background-color: hsl(0, 0%, 26%);
+  --text-color: hsl(0, 0%, 100%);
 }
 
 /*# sourceMappingURL=styles.css.map */
